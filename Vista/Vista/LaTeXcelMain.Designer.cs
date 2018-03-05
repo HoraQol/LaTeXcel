@@ -79,6 +79,7 @@
             this.personalizaciónToolStripMenuItem.ShortcutKeyDisplayString = "";
             this.personalizaciónToolStripMenuItem.Size = new System.Drawing.Size(101, 20);
             this.personalizaciónToolStripMenuItem.Text = "Personalización";
+            this.personalizaciónToolStripMenuItem.Click += new System.EventHandler(this.personalizaciónToolStripMenuItem_Click);
             // 
             // ayudaToolStripMenuItem
             // 

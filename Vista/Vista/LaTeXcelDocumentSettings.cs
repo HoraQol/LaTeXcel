@@ -16,5 +16,10 @@ namespace Vista
         {
             InitializeComponent();
         }
+
+        private void btnCustomCerrar_Click(object sender, EventArgs e)
+        {
+            Dispose();
+        }
     }
 }

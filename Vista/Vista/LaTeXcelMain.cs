@@ -14,6 +14,7 @@ namespace Vista
     public partial class LaTeXcelMain : Form
     {
         private LaTeXcelNew frmNew;
+        private LaTeXcelDocumentSettings frmCustom;
         public LaTeXcelMain()
         {
             InitializeComponent();
@@ -32,6 +33,12 @@ namespace Vista
                 frmNew = new LaTeXcelNew(dir);
                 frmNew.ShowDialog();
             }
+        }
+
+        private void personalizaciónToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmCustom = new LaTeXcelDocumentSettings();
+            frmCustom.ShowDialog();
         }
     }
 }
