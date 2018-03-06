@@ -15,6 +15,13 @@ namespace Vista
         public LaTeXcelDocumentSettings()
         {
             InitializeComponent();
+            DomainUpDown.DomainUpDownItemCollection col = domLetra.Items;
+            col.Add("8pt.");
+            col.Add("9pt.");
+            col.Add("10pt.");
+            col.Add("11pt.");
+            col.Add("12pt.");
+            domLetra.SelectedIndex = 2;
         }
 
         private void btnCustomCerrar_Click(object sender, EventArgs e)

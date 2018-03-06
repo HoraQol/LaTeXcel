@@ -63,6 +63,12 @@
     <Compile Include="LaTeXcelNew.Designer.cs">
       <DependentUpon>LaTeXcelNew.cs</DependentUpon>
     </Compile>
+    <Compile Include="LaTeXcelScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LaTeXcelScreen.Designer.cs">
+      <DependentUpon>LaTeXcelScreen.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="LaTeXcelDocumentSettings.resx">
@@ -73,6 +79,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="LaTeXcelNew.resx">
       <DependentUpon>LaTeXcelNew.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LaTeXcelScreen.resx">
+      <DependentUpon>LaTeXcelScreen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

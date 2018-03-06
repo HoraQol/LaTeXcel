@@ -16,7 +16,11 @@ namespace Vista
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new LaTeXcelMain());
+            LaTeXcelScreen sc = new LaTeXcelScreen();
+            if(sc.ShowDialog() == DialogResult.OK)
+            {
+                Application.Run(new LaTeXcelMain());
+            }
         }
     }
 }

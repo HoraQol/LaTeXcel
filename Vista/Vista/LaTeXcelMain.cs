@@ -35,7 +35,7 @@ namespace Vista
             }
         }
 
-        private void personalizaciónToolStripMenuItem_Click(object sender, EventArgs e)
+        private void configuraciónToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frmCustom = new LaTeXcelDocumentSettings();
             frmCustom.ShowDialog();

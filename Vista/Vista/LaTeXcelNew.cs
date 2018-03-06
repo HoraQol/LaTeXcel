@@ -40,5 +40,10 @@ namespace Vista
                 txtEnd.Text = FileSaveNew.FileName;
             }
         }
+
+        private void btnConvertir_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
